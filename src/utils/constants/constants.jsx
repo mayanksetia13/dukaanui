@@ -1,82 +1,75 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHouse,
-  faRectangleList,
-  faBorderAll,
-  faTruck,
-  faBullhorn,
-  faChartSimple,
-  faMoneyCheck,
-  faArrowPointer,
-  faPercent,
-  faUserGroup,
-  faPalette,
-  faBolt,
-} from "@fortawesome/free-solid-svg-icons";
+import homeLogo from "../../assets/logos/Home.png";
+import ordersLogo from "../../assets/logos/Orders.png";
+import productsLogo from "../../assets/logos/Products.png";
+import deliveryLogo from "../../assets/logos/Delivery.png";
+import marketingLogo from "../../assets/logos/Marketing.png";
+import analyticsLogo from "../../assets/logos/Analytics.png";
+import paymentsLogo from "../../assets/logos/Payments.png";
+import toolsLogo from "../../assets/logos/Tools.png";
+import discountsLogo from "../../assets/logos/Discounts.png";
+import audienceLogo from "../../assets/logos/Audience.png";
+import appearanceLogo from "../../assets/logos/Appearance.png";
+import pluginsLogo from "../../assets/logos/Plugins.png";
 
 export const sidebarItems = [
   {
     name: "home",
     label: "Home",
-    icon: <FontAwesomeIcon icon={faHouse} style={{ color: "#ffffff" }} />,
+    icon: homeLogo,
   },
   {
     name: "orders",
     label: "Orders",
-    icon: (
-      <FontAwesomeIcon icon={faRectangleList} style={{ color: "#ffffff" }} />
-    ),
+    icon: ordersLogo,
   },
   {
     name: "products",
     label: "Products",
-    icon: <FontAwesomeIcon icon={faBorderAll} style={{ color: "#ffffff" }} />,
+    icon: productsLogo,
   },
   {
     name: "delivery",
     label: "Delivery",
-    icon: <FontAwesomeIcon icon={faTruck} style={{ color: "#ffffff" }} />,
+    icon: deliveryLogo,
   },
   {
     name: "marketing",
     label: "Marketing",
-    icon: <FontAwesomeIcon icon={faBullhorn} style={{ color: "#ffffff" }} />,
+    icon: marketingLogo,
   },
   {
     name: "analytics",
     label: "Analytics",
-    icon: <FontAwesomeIcon icon={faChartSimple} style={{ color: "#ffffff" }} />,
+    icon: analyticsLogo,
   },
   {
     name: "payments",
     label: "Payments",
-    icon: <FontAwesomeIcon icon={faMoneyCheck} style={{ color: "#ffffff" }} />,
+    icon: paymentsLogo,
   },
   {
     name: "tools",
     label: "Tools",
-    icon: (
-      <FontAwesomeIcon icon={faArrowPointer} style={{ color: "#ffffff" }} />
-    ),
+    icon: toolsLogo,
   },
   {
     name: "discounts",
     label: "Discounts",
-    icon: <FontAwesomeIcon icon={faPercent} style={{ color: "#ffffff" }} />,
+    icon: discountsLogo,
   },
   {
     name: "audeince",
     label: "Audeince",
-    icon: <FontAwesomeIcon icon={faUserGroup} style={{ color: "#ffffff" }} />,
+    icon: audienceLogo,
   },
   {
     name: "appearance",
     label: "Appearance",
-    icon: <FontAwesomeIcon icon={faPalette} style={{ color: "#ffffff" }} />,
+    icon: appearanceLogo,
   },
   {
     name: "plugins",
     label: "Plugins",
-    icon: <FontAwesomeIcon icon={faBolt} style={{ color: "#ffffff" }} />,
+    icon: pluginsLogo,
   },
 ];
